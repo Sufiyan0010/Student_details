@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:student_details/functions/db_functions.dart';
+import 'package:student_details/database/functions/db_functions.dart';
 import 'package:student_details/screens/single_student.dart';
 
 class SearchField extends SearchDelegate {

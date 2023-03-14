@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:student_details/functions/db_functions.dart';
-import 'package:student_details/models/student_model.dart';
+import 'package:student_details/database/functions/db_functions.dart';
 import 'package:student_details/screens/bottom_sheet.dart';
+
+import '../models/student_model.dart';
 
 Future addStudentButtonClick(BuildContext context) async {
   final name = nameController.text.trim();

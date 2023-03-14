@@ -1,6 +1,6 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import '../functions/add_student_button.dart';
+import '../database/functions/add_student_button.dart';
 
 final nameController = TextEditingController();
 final ageController = TextEditingController();

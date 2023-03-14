@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:student_details/models/student_model.dart';
+
+import '../database/models/student_model.dart';
 
 class SingleStudent extends StatelessWidget {
   final StudentModel data;
